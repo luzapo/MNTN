@@ -102,3 +102,121 @@ nav ul li{
     width: 100%;
 }
 
+
+footer{
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+}
+
+.copyright ul li{
+    margin-bottom: 30px;
+    margin-right: 90px;
+    list-style: none;
+}
+
+
+.Moreontheblog ul li{
+    padding-bottom: 15px ;
+    color: white;     
+    font-size: 18px ;
+    list-style: none;
+}
+
+.MoreonMNTN ul li{
+   padding-bottom: 15px ;
+   margin-right: 50px;
+   color: white;
+   font-size: 18px ;
+   list-style: none;
+}
+
+.privacy{
+margin-left: 35px;
+margin-top: 40px;
+}
+
+.principal{
+    display: flex;
+    margin-left: 60px;
+}
+
+.imagen1 {
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+
+.imagen2 {
+    position: relative;
+    margin-right: 20px ;
+    top: 95px;
+}
+
+.imagen3 {
+    margin-left: 10%/* Coloca la imagen 3 a la derecha de la imagen 2 */
+}
+
+
+.principal2{
+    display: flex;
+    margin-left: 60px;
+}
+      
+.imagen21 {
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+      
+.imagen22 {
+    position: relative;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+      
+.imagen23 {
+    margin-top: 70px;
+    margin-right: 50px ;
+}
+
+.principal3{
+    display: flex;
+    margin-left: 60px;
+}
+          
+.imagen31 {
+    margin-top: 50px;
+    margin-left: 60px; 
+}
+          
+.imagen32 {
+    position: relative;
+    margin-right: 20px ;
+    top: 95px;
+}
+
+.imagen33 {
+   margin-left: 10%/* Coloca la imagen 3 a la derecha de la imagen 2 */
+
+}
+
+.ir a{
+    margin-left:  330px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s; 
+}
+
+.ir a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.ir2 a{
+    margin-left: 1150px;
+    color: white;
+    font-size: 20px ;
+    transition: background-color 0.3s; 
+}
+
+.ir2 a:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón por encima */
+}
