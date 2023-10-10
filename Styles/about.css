@@ -113,7 +113,7 @@ form{
     left: 35%;
     width: 30%;
     text-align: center;
-    margin-top: 50px;
+    margin-top: -50px;
     margin-bottom: 50px;
 }
 
@@ -125,7 +125,7 @@ form>img{
 form>input{
     font-size: 22px;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 15px;
     /*border-radius: 15px; */
     border-color: cornflowerblue;
@@ -143,33 +143,51 @@ form>input:focus{
 }
 
 form>button{
+    margin-top: 10px;
     background-color: rgb(247, 230, 218);
     color: gray;
-    padding: 15px;
+    padding: 20px;
     width: 80%;
     border-radius: 15px;
     font-family: 'Mulish', sans-serif;
     font-family: 'Young Serif', serif;
     border-color: rgb(252, 252, 254);
-    box-shadow: 5px 5px 5px cyan;
+    box-shadow: 5px 5px 5px rgb(219, 240, 240);
 }
 form>button:hover{
 color: white;
 width: 85%;
-background-color: aquamarine;
+background-color: rgb(118, 158, 205);
 }
 
 .recordarContraseñas{
+    color: #f5f5f5;
     padding-top: 30px;
+    padding-bottom: 50px;
     font-size: 22px;
     font-family: 'Croissant One', cursive;
     font-family: 'Mulish', sans-serif;
     font-family: 'Young Serif', serif;
+    margin-bottom: 15px;   
 }
 
 textarea{
+    margen
     max-width: 80%;
     max-height: 300px;
     min-width: 80%;
     min-height: 100px;
+    margin-bottom: 40px;
 }
+
+#select{
+    margin-top: 10px;
+}
+
+.centrado {
+    text-align: center; /* Centra horizontalmente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente en flexbox */
+    align-items: center; /* Centra verticalmente en flexbox */
+    
+  }

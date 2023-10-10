@@ -139,6 +139,7 @@ margin-top: 40px;
 .principal{
     display: flex;
     margin-left: 60px;
+    max-width: 100%;
 }
 
 .imagen1 {
@@ -160,6 +161,7 @@ margin-top: 40px;
 .principal2{
     display: flex;
     margin-left: 60px;
+    max-width: 100%;
 }
       
 .imagen21 {
@@ -181,7 +183,8 @@ margin-top: 40px;
 .principal3{
     display: flex;
     margin-left: 60px;
-}
+    max-width: 100%;
+   }
           
 .imagen31 {
     margin-top: 50px;
