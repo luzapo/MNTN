@@ -137,70 +137,69 @@ margin-top: 40px;
 }
 
 .principal{
-    display: flex;
-    margin-left: 60px;
-    max-width: 100%;
+ width: 100%;
+ display: inline-flex;
+ margin-top: 100px;
 }
 
-.imagen1 {
-    margin-top: 50px;
-    margin-left: 60px; 
+
+.principalinterno{
+    display:flex;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
-.imagen2 {
-    position: relative;
-    margin-right: 20px ;
-    top: 95px;
+
+.imagen1, .imagen2, .imagen3{
+    flex: 1;
+    padding: 10px;
+    width: 100%;
 }
 
-.imagen3 {
-    margin-left: 10%/* Coloca la imagen 3 a la derecha de la imagen 2 */
-}
 
 
 .principal2{
-    display: flex;
-    margin-left: 60px;
-    max-width: 100%;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 100px;
+   
 }
-      
-.imagen21 {
-    margin-top: 50px;
-    margin-left: 60px; 
+
+.principalinterno2{
+    display:flex;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
-      
-.imagen22 {
-    position: relative;
-    margin-top: 70px;
-    margin-left: 200px;
-}
-      
-.imagen23 {
-    margin-top: 70px;
-    margin-right: 50px ;
+
+.imagen21, .imagen22, .imagen23{
+    flex: 1;
+    padding: 10px;
+    width: 100%;
 }
 
 .principal3{
-    display: flex;
-    margin-left: 60px;
-    max-width: 100%;
-   }
-          
-.imagen31 {
-    margin-top: 50px;
-    margin-left: 60px; 
-}
-          
-.imagen32 {
-    position: relative;
-    margin-right: 20px ;
-    top: 95px;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 100px;
+   
 }
 
-.imagen33 {
-   margin-left: 10%/* Coloca la imagen 3 a la derecha de la imagen 2 */
-
+.principalinterno3{
+    display:flex;
+    width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
 }
+
+
+.imagen31, .imagen32, .imagen33{
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+}
+
 
 .ir a{
     margin-left:  330px;
