@@ -89,11 +89,6 @@ tbody>tr:hover{
     /*background-color: #071116;*/
     padding: 30px;
     color: white;
-    /* flex-direction: row;
-    display: flex;
-    position: relative;
-    width: 100%;
-    z-index: 0;*/
 }
 
 .vacio{
@@ -103,8 +98,18 @@ tbody>tr:hover{
 }
 
 .video{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Esto centra verticalmente en la pantalla */
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra verticalmente en la pantalla */
+}
+
+.mapa{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Esto centra verticalmente en la pantalla */
+    
 }
