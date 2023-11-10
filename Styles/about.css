@@ -1,11 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     /*background-color: #0B1D26; */
-   /* background-color: brown;  */
+    /* background-color: brown;  */
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,14 +15,14 @@ header{
     z-index: 2;
 }
 
-.fondo .cielo2{
+.fondo .cielo2 {
     position: relative;
     margin-top: -75px;
     width: 100%;
     z-index: 0;
 }
 
-.sombra{
+.sombra {
     position: absolute;
     margin-top: -70px;
     top: 0;
@@ -31,25 +31,25 @@ header{
     width: 100%;
 }
 
-h1{
+h1 {
     background-color: #071116;
     color: white;
     text-align: center;
     font-size: 30px;
     font-style: normal;
-    width: 100%; 
-   
+    width: 100%;
+
 }
 
-caption{
-font-size: 32px;
-color: white;
-padding-bottom: 30px;
+caption {
+    font-size: 32px;
+    color: white;
+    padding-bottom: 30px;
 }
 
 
-table{
-    margin: 0  auto;
+table {
+    margin: 0 auto;
     margin-top: 40px;
     border-collapse: collapse;
     font-size: 20px;
@@ -61,24 +61,26 @@ table{
     background-size: 50%;
     background-repeat: no-repeat;
 }
-th,td{
+
+th,
+td {
     border-style: ridge;
     padding: 15px;
 }
 
-tr>th{
+tr>th {
     /* background con color */
     /* background-color:#78807c; */
     font-size: 22px;
-     color: #FBD784;
+    color: #FBD784;
 }
 
-tbody>tr:hover{
+tbody>tr:hover {
     background-color: #78807c;
     color: aliceblue;
 }
 
-.valores{
+.valores {
     /*background-color: #071116;*/
     padding: 30px;
     color: white;
@@ -89,7 +91,7 @@ tbody>tr:hover{
     z-index: 0;*/
 }
 
-.vacio{
+.vacio {
     width: 100%;
     height: 30px;
     background-color: #071116;
@@ -107,9 +109,9 @@ article {
 }
 
 
-form{
+form {
     position: relative;
-    top:100px;
+    top: 100px;
     left: 35%;
     width: 30%;
     text-align: center;
@@ -117,14 +119,14 @@ form{
     margin-bottom: 50px;
 }
 
-form>img{
+form>img {
     width: 80%;
     padding-bottom: 30px;
 }
 
-form>input{
+form>input {
     font-size: 22px;
-    width: 80%;
+    width: 100%;
     margin-bottom: 5px;
     padding: 15px;
     /*border-radius: 15px; */
@@ -138,11 +140,11 @@ form>input{
     font-family: 'Young Serif', serif;
 }
 
-form>input:focus{
-    outline:none;
+form>input:focus {
+    outline: none;
 }
 
-form>button{
+form>button {
     margin-top: 10px;
     background-color: rgb(247, 230, 218);
     color: gray;
@@ -154,13 +156,14 @@ form>button{
     border-color: rgb(252, 252, 254);
     box-shadow: 5px 5px 5px rgb(219, 240, 240);
 }
-form>button:hover{
-color: white;
-width: 85%;
-background-color: rgb(118, 158, 205);
+
+form>button:hover {
+    color: white;
+    width: 85%;
+    background-color: rgb(118, 158, 205);
 }
 
-.recordarContraseñas{
+.recordarContraseñas {
     color: #f5f5f5;
     padding-top: 30px;
     padding-bottom: 50px;
@@ -168,11 +171,11 @@ background-color: rgb(118, 158, 205);
     font-family: 'Croissant One', cursive;
     font-family: 'Mulish', sans-serif;
     font-family: 'Young Serif', serif;
-    margin-bottom: 15px;   
+    margin-bottom: 15px;
 }
 
-textarea{
-    margen
+textarea {
+    /* margin: 0;  Puedes ajustar esto según tus necesidades */
     max-width: 80%;
     max-height: 300px;
     min-width: 80%;
@@ -180,14 +183,28 @@ textarea{
     margin-bottom: 40px;
 }
 
-#select{
+#select {
     margin-top: 10px;
 }
 
 .centrado {
-    text-align: center; /* Centra horizontalmente */
+    text-align: center;
+    /* Centra horizontalmente */
     display: flex;
-    justify-content: center; /* Centra horizontalmente en flexbox */
-    align-items: center; /* Centra verticalmente en flexbox */
-    
-  }
+    justify-content: center;
+    /* Centra horizontalmente en flexbox */
+    align-items: center;
+    /* Centra verticalmente en flexbox */
+
+}
+
+.error-input{
+    border: 3px solid red;
+    display: block;
+}
+
+
+.color-error{
+    color: white;
+}
+   
