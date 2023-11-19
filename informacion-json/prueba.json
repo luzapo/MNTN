@@ -1,0 +1,18 @@
+
+
+{
+    "tarjetas": [
+        {
+            "imagen": "./Assests/img/equipo1.jpg",
+            "titulo": "Nuestra MISION"
+        },
+        {
+            "imagen": "./Assests/img/equipo2.jpg",
+            "titulo": "Nuestra VISION"
+        },
+        {
+            "imagen": "./Assests/img/equipo1.jpg",
+            "titulo": "Nuestros PILARES"
+        }
+    ]
+}
